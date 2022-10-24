@@ -11,7 +11,6 @@ Data Analysis Expressions
 To calculate the average of column `15 year rate` in table `Interest Rates`
 ```
 Average 15 year rate = CALCULATE(AVERAGE('Interest Rates'[15 year rate]))
-
 ```
 
 To calculate the average of column `15 year rate` in table `Interest Rates` in August
