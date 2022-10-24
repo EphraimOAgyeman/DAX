@@ -45,3 +45,15 @@ Average 15 year rate for AUG = CALCULATE(AVERAGE('Interest Rates'[15 year rate])
 Average interest rate to all dates = CALCULATE(AVERAGE('Interest Rates'[15 year rate]),ALL('Interest Rates'[Date]))
 ```
 
+## FILTER function 
+### FILTER(<table>,<filter condition>)
+## When to use the FILTER Function
+  * Column = measure
+  * Column = formula
+  * Column = column
+  * Measure = measure
+  * Measure = formula
+  * Measure = fixed value
+```
+Average interest rate to all dates = CALCULATE(AVERAGE('Interest Rates'[15 year rate]),ALL('Interest Rates'[Date]))
+```
