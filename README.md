@@ -46,7 +46,7 @@ Average interest rate to all dates = CALCULATE(AVERAGE('Interest Rates'[15 year 
 ```
 
 ## FILTER function 
-### FILTER(<table>,<filter condition>)
+### FILTER("table","filter condition")
 ## When to use the FILTER Function
   * Column = measure
   * Column = formula
