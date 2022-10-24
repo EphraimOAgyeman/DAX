@@ -38,3 +38,10 @@ Average 15 year rate btwn AUG 1 or 2 = CALCULATE(AVERAGE('Interest Rates'[15 yea
 Average 15 year rate for AUG = CALCULATE(AVERAGE('Interest Rates'[15 year rate]),'Interest Rates'[Date]>=DATE(2018,8,1) && 'Interest Rates'[Date]<=DATE(2018,8,31))
 ```
 
+## ALL function 
+### Simply saying apply this value to all members of a column or a table at large
+### Given one data to all members of a column or a full table 
+```
+Average interest rate to all dates = CALCULATE(AVERAGE('Interest Rates'[15 year rate]),ALL('Interest Rates'[Date]))
+```
+
