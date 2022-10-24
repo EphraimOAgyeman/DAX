@@ -2,7 +2,7 @@
 
 # DAX
 
-*D*ata *A*nalysis E*x*pressions
+**D**ata **A**nalysis E**x**pressions
 
 ### Parts of DAX 
 >`name given to expression` = `CALCULATE` ( `FUNCTION_NAME`(`TABLE_NAME`[`COLUMN_NAME`]), `FILTER`)
