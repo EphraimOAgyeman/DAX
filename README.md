@@ -57,5 +57,8 @@ Average interest rate to all dates = CALCULATE(AVERAGE('Interest Rates'[15 year 
 
   * can also be `<>`,`>`,`<`,`>=`,`=<!`
 ```
-Average interest rate to all dates = CALCULATE(AVERAGE('Interest Rates'[15 year rate]),ALL('Interest Rates'[Date]))
+August 1 =  DATE(2018,8,1)
+```
+```
+Interest rate August 1 (filter example) = CALCULATE(AVERAGE('Interest Rates'[15 year rate]), FILTER('Interest Rates', 'Interest Rates'[Date] = [August 1]))
 ```
