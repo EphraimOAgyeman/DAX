@@ -1,4 +1,3 @@
-<img src="bi.webp" align="center" size="100px"/>
-<img src="bi.webp" align="center" size="1000px"/>
+<img src="bi.webp" align="center" size="100000px"/>
 # DAX
 Data Analysis Expressions
