@@ -54,6 +54,8 @@ Average interest rate to all dates = CALCULATE(AVERAGE('Interest Rates'[15 year 
   * Measure = measure
   * Measure = formula
   * Measure = fixed value
+
+  * can also be `<>`,`>`,`<`,`>=`,`=<!`
 ```
 Average interest rate to all dates = CALCULATE(AVERAGE('Interest Rates'[15 year rate]),ALL('Interest Rates'[Date]))
 ```
