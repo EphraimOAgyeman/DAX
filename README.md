@@ -69,5 +69,5 @@ Interest rate August 1 (filter example) = CALCULATE(AVERAGE('Interest Rates'[15 
 ## GENERATESERIES function - DATA POPULATION
 ### GENERATESERIES("start value","end value","interval")
 ```
-Interest rate August 1 (filter example) = CALCULATE(AVERAGE('Interest Rates'[15 year rate]), FILTER('Interest Rates', 'Interest Rates'[Date] = [August 1]))
+loan Period (table_name) = GENERATESERIES(1,360,1)
 ```
