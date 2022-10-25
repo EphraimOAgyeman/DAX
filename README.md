@@ -71,3 +71,9 @@ Interest rate August 1 (filter example) = CALCULATE(AVERAGE('Interest Rates'[15 
 ```
 loan Period (table_name) = GENERATESERIES(1,360,1)
 ```
+
+## POWER function 
+### POWER("base","exponent") ie 2^3 - 2 will be the base and 3 the exponent
+```
+power(1 + [1. Annual interest rate (30 year loan)],1/12)
+```
