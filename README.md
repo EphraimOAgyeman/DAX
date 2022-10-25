@@ -64,3 +64,10 @@ August 1 =  DATE(2018,8,1)
 ```
 Interest rate August 1 (filter example) = CALCULATE(AVERAGE('Interest Rates'[15 year rate]), FILTER('Interest Rates', 'Interest Rates'[Date] = [August 1]))
 ```
+
+
+## GENERATESERIES function - DATA POPULATION
+### GENERATESERIES("start value","end value","interval")
+```
+Interest rate August 1 (filter example) = CALCULATE(AVERAGE('Interest Rates'[15 year rate]), FILTER('Interest Rates', 'Interest Rates'[Date] = [August 1]))
+```
