@@ -1,6 +1,6 @@
 <img src="bi.webp" align="center" size="1000px"/>
 
-# DAX
+# DAX CHEATSHEET
 
 Data Analysis Expressions
 
