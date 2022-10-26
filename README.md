@@ -1,6 +1,7 @@
 <img src="bi.webp" align="center" size="1000px"/>
 
 # DAX CHEATSHEET
+## **NB:** The sure way to know the right DAX to use and actually apply, is to totally understand what to achieve and how in psuedo code.
 
 Data Analysis Expressions
 
@@ -91,7 +92,7 @@ DIVIDE("measure","measure",0)
 
 ```
 #SUMX Function
-SUMX("table/column","measure or expression")
+measure = SUMX("table/column","measure or expression")
 ```
 
 ### The main question is, what two data filters do you want to sum up. 
