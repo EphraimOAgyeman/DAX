@@ -85,10 +85,14 @@ power(1 + [1. Annual interest rate (30 year loan)],1/12)
 DIVIDE("measure","measure",0)
 ```
 
-## X-Factor function 
+## X-Factor functions 
 ### Examples of such functions includes `SUMX`,`COUNTX`,`PRODUCTX`,`MAXX`,`MINXX`
 ### Each will iterate throught the measure table to give the result
+
 ```
 #SUMX Function
 SUMX("table/column","measure")
+ 
 ```
+### two question; 1. what is your target data, 2. what 
+### If you want to sum a specific part in a column, we will apply filters in the first parameter of the SUMX function
