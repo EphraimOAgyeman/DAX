@@ -82,5 +82,12 @@ power(1 + [1. Annual interest rate (30 year loan)],1/12)
 ### DIVIDE("numerator","denominator","alternate results") 
 ### The divide function returns a value which is defined. If the value isnt returned or is undefined, the alternate results we will provide will show
 ```
-power(1 + [1. Annual interest rate (30 year loan)],1/12)
+DIVIDE("measure","measure",0)
+```
+
+## X-Factor function 
+### DIVIDE("numerator","denominator","alternate results") 
+### The divide function returns a value which is defined. If the value isnt returned or is undefined, the alternate results we will provide will show
+```
+DIVIDE("measure","measure",0)
 ```
