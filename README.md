@@ -86,8 +86,9 @@ DIVIDE("measure","measure",0)
 ```
 
 ## X-Factor function 
-### DIVIDE("numerator","denominator","alternate results") 
-### The divide function returns a value which is defined. If the value isnt returned or is undefined, the alternate results we will provide will show
+### Examples of such functions includes `SUMX`,`COUNTX`,`PRODUCTX`,`MAXX`,`MINXX`
+### Each will iterate throught the measure table to give the result
 ```
-DIVIDE("measure","measure",0)
+#SUMX Function
+SUMX("table/column","measure")
 ```
