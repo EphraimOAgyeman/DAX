@@ -93,5 +93,8 @@ DIVIDE("measure","measure",0)
 #SUMX Function
 SUMX("table/column","measure or expression")
 ```
-### The main question is, what two data filters do you want to sum up. Two question; 1. what is your target data or first data, 2. what other data results you want to add up
+
+### The main question is, what two data filters do you want to sum up. 
+
+Two question; 1. what is your target data or first data, 2. what other data results you want to add up
 ### If you want to sum a specific part in a column, we will apply filters in the first parameter of the SUMX function
