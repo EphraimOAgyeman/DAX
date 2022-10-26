@@ -99,3 +99,17 @@ measure = SUMX("table/column","measure or expression")
 
 Two question; 1. what is your target data or first data, 2. what other data results you want to add up
 ### If you want to sum a specific part in a column, we will apply filters in the first parameter of the SUMX function
+
+
+## Quick Mearures
+### Examples of such functions includes 
+* `Aggregate per category`
+* `Filters`
+* `Time intelligence`
+* `Totals`
+* `Mathematical operations`
+* `Text`
+
+### Each will iterate throught the measure table to give the result
+
+
