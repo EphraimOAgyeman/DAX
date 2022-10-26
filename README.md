@@ -91,8 +91,7 @@ DIVIDE("measure","measure",0)
 
 ```
 #SUMX Function
-SUMX("table/column","measure")
- 
+SUMX("table/column","measure or expression")
 ```
-### two question; 1. what is your target data, 2. what 
+### two question; 1. what is your target data, 2. what other data results you want to add up
 ### If you want to sum a specific part in a column, we will apply filters in the first parameter of the SUMX function
