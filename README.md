@@ -138,3 +138,12 @@ GENERATESERIES(DATE(start year, start month, start day), DATE(end year, end mont
 ```
  IF(MONTH([Date Interest rate selected])<12, DATE(YEAR(Date Interest rate selected), MONTH(Date Interest rate selected)+1,1), DATE(YEAR(Date Interest rate selected)+1,1,1)
 ```
+
+## Dynamici Measures
+### IF(condition meets criteria, "measure 1", "measure 2")
+### IF the condition is met, we return the first measure and if not, the alternative measure
+```
+ IF(MONTH([Date Interest rate selected])<12, DATE(YEAR(Date Interest rate selected), MONTH(Date Interest rate selected)+1,1), DATE(YEAR(Date Interest rate selected)+1,1,1)
+```
+
+
