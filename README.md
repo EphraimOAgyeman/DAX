@@ -113,3 +113,28 @@ Two question; 1. what is your target data or first data, 2. what other data resu
 ### Each will iterate throught the measure table to give the result
 
 
+## Creating a date table or column
+### DATE(year, month, day)
+### GENERATESERIES( start value, end value, interval)
+
+```
+GENERATESERIES(DATE(start year, start month, start day), DATE(end year, end month, end date))
+```
+
+
+## Filtering among tables
+There must be a relationship created before multiTable filtering can be done. The code below is used for such relationship building.
+```
+ SELECTEDVALUE(column)
+```
+### GENERATESERIES( start value, end value, interval)
+
+```
+GENERATESERIES(DATE(start year, start month, start day), DATE(end year, end month, end date))
+```
+
+## IF condition 
+### IF(condition 1 is met, "Result", "Alternate result")
+```
+ IF(MONTH([Date Interest rate selected])<12, DATE(YEAR(Date Interest rate selected), MONTH(Date Interest rate selected)+1,1), DATE(YEAR(Date Interest rate selected)+1,1,1)
+```
