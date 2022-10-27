@@ -147,7 +147,7 @@ SELECTEDVALUE(data source) = "text"
 ```
 
 ## DATEIFF Measure function
-###it calculates the difference between two dates in units of interval we specify. ie month, day, year etc..
+### it calculates the difference between two dates in units of interval we specify. ie month, day, year etc..
 ## Both `start date` and `end date` must be measures.
 ```
 DATEIFF(start date, end date, interval)
