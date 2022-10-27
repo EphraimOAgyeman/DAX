@@ -159,3 +159,18 @@ DATEIFF(start date, end date, interval)
 example
 DIVIDE(numerator, denominator, BLANK())
 
+## Variables in DAX
+### Variables work similarly to measures, declare the name and write the purpose or function
+### The variable must start the DAX code
+```
+VAR acurracyFormula = POWER(base values, exponent value )
+
+return accuracyFormula -+ anyother measure
+```
+
+```
+sample measure =
+VAR sampleVAR = plenty
+
+return sampleVAR -+ anything
+```
