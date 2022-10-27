@@ -139,11 +139,18 @@ GENERATESERIES(DATE(start year, start month, start day), DATE(end year, end mont
  IF(MONTH([Date Interest rate selected])<12, DATE(YEAR(Date Interest rate selected), MONTH(Date Interest rate selected)+1,1), DATE(YEAR(Date Interest rate selected)+1,1,1)
 ```
 
-## Dynamici Measures
-### IF(condition meets criteria, "measure 1", "measure 2")
+## Dynamic Measures
 ### IF the condition is met, we return the first measure and if not, the alternative measure
+SELECTEDVALUE(data source) = "text"
 ```
- IF(MONTH([Date Interest rate selected])<12, DATE(YEAR(Date Interest rate selected), MONTH(Date Interest rate selected)+1,1), DATE(YEAR(Date Interest rate selected)+1,1,1)
+ IF(condition meets criteria, "measure 1", "measure 2")
+```
+
+## DATEIFF Measure function
+###it calculates the difference between two dates in units of interval we specify. ie month, day, year etc..
+## Both `start date` and `end date` must be measures.
+```
+DATEIFF(start date, end date, interval)
 ```
 
 
