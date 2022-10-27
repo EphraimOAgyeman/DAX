@@ -188,3 +188,11 @@ DATESBETWEEN(dates column, start date, end date)
 ```
 measure name = SUMX(DATESBETWEEN(dates column, start date, end date), column to sum up)
 ```
+
+
+## DATEADD function as a filter
+### It is not a stand alone function and its used to move a date column 
+```
+DATEADD(dates column, number of units or intervals to move by, unit or lenght of interval)
+```
+
