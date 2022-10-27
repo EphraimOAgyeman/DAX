@@ -196,3 +196,10 @@ measure name = SUMX(DATESBETWEEN(dates column, start date, end date), column to 
 DATEADD(dates column, number of units or intervals to move by, unit or lenght of interval)
 ```
 
+## DATESQTD and DATESYTD function as a filter
+### Quater-to-date and year-to-date functions
+### They have special intervals for date calculations. QTD - in quaters, YTD - in years
+```
+DATESQTD(date column)
+DATESYTD(date column)
+```
