@@ -185,3 +185,6 @@ return sampleVAR -+ anything including ifs or filters or other measures
 ```
 DATESBETWEEN(dates column, start date, end date)
 ```
+```
+measure name = SUMX(DATESBETWEEN(dates column, start date, end date), column to sum up)
+```
