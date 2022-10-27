@@ -174,3 +174,14 @@ VAR sampleVAR = plenty
 
 return sampleVAR -+ anything including ifs or filters or other measures
 ```
+
+
+
+## DATESBETWEEN function
+### A sleek way of calculating the difference between two dates 
+## Both `start date` and `end date` must be measures.
+### The date column has to be filtered
+### One can use `SUMX` on filtered dates
+```
+DATESBETWEEN(dates column, start date, end date)
+```
