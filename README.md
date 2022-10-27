@@ -153,4 +153,9 @@ SELECTEDVALUE(data source) = "text"
 DATEIFF(start date, end date, interval)
 ```
 
+## BlANK Function
+### BLANK() = 0, shows up as a " "
+
+example
+DIVIDE(numerator, denominator, BLANK())
 
