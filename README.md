@@ -203,3 +203,8 @@ DATEADD(dates column, number of units or intervals to move by, unit or lenght of
 DATESQTD(date column)
 DATESYTD(date column)
 ```
+
+
+## Design principles
+* F pattern
+* A few colors or a color palette [here](https://color.adobe.com/create/color-wheel)
