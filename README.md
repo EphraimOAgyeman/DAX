@@ -7,7 +7,7 @@ Data Analysis Expressions
 
 Dax is used to create or write measures.
 
-There is a difference between calculated columns and measures
+There is a difference between calculated columns and measures. In writing measure, avoid using names of columns but rater only measures. Whilst writing calculated columns, you are to use only column names.
 
 ### Parts of DAX 
 >`name given to expression` = `CALCULATE` ( `FUNCTION_NAME`(`TABLE_NAME`[`COLUMN_NAME`]), `FILTER`)
