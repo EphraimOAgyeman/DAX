@@ -5,6 +5,10 @@
 
 Data Analysis Expressions
 
+Dax is used to create or write measures.
+
+There is a difference between calculated columns and measures
+
 ### Parts of DAX 
 >`name given to expression` = `CALCULATE` ( `FUNCTION_NAME`(`TABLE_NAME`[`COLUMN_NAME`]), `FILTER`)
 
