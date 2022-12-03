@@ -181,7 +181,7 @@ return sampleVAR -+ anything including ifs or filters or other measures
 
 # DATE functions
 ```
-tableName =
+dimDate =
 ADDCOLUMNS{
    CALENDER(
       DATE(2018, 1, 1),
