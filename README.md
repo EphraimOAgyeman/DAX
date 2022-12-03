@@ -180,6 +180,7 @@ return sampleVAR -+ anything including ifs or filters or other measures
 ```
 
 # DATE functions
+## Step 1
 ```
 dimDate =
 ADDCOLUMNS{
@@ -194,7 +195,20 @@ ADDCOLUMNS{
    "Month label", FORMAT([Date]), "mmm"
 }
 ```
+## Step 2
+Remove the date settings in the settings in power bi
 
+## Step 3
+check the arrangement order of the month
+
+## Step 4
+Create relationships in the model view
+
+## Step 5
+Create a date hierarchy
+
+## Step 6
+Finish the settings by choosing dimDate as a Date table
 
 
 
