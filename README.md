@@ -179,6 +179,24 @@ VAR sampleVAR = plenty
 return sampleVAR -+ anything including ifs or filters or other measures
 ```
 
+# DATE functions
+```
+tableName =
+ADDCOLUMNS{
+   CALENDER(
+      DATE(2018, 1, 1),
+      DATE(2022, 12, 31)
+   ),
+   "Year", YEAR([Date]),
+   "Quarter", QUARTER([Date]),
+   "Quater label", "Q" & QUATER([Date]),
+   "Month", MONTH([Date]),
+   "Month label", FORMAT([Date]), "mmm"
+}
+```
+
+
+
 
 
 ## DATESBETWEEN function
