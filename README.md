@@ -240,6 +240,22 @@ DATESQTD(date column)
 DATESYTD(date column)
 ```
 
+# Greeting
+```
+Welcome Text = 
+VAR Hour = HOUR(NOW())
+VAR Greeting =
+SWITCH(
+   TRUE(),
+   Hour >= 0 && Hour < 5, "Good Night",
+   Hour >= 5 && Hour < 12, "Good Morning",
+   Hour >= 12 && Hour < 18, "Good Afternoon",
+   Hour >= 18 && Hour < 24, "Good Evening"
+)
+RETURN
+Greeting & " " & SELECTEDVALUE(dimUser[First Name])
+```
+
 
 ## Design principles
 * F pattern
