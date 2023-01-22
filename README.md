@@ -182,18 +182,15 @@ return sampleVAR -+ anything including ifs or filters or other measures
 # DATE functions
 ## Step 1
 ```
-dimDate =
-ADDCOLUMNS{
-   CALENDER(
-      DATE(2018, 1, 1),
-      DATE(2022, 12, 31)
-   ),
-   "Year", YEAR([Date]),
-   "Quarter", QUARTER([Date]),
-   "Quater label", "Q" & QUATER([Date]),
+dimDates = 
+ADDCOLUMNS(
+ CALENDAR(DATE(2022,01,01), DATE(2023,12,31)),
+ "Year", YEAR([Date]),
+ "Quarter", QUARTER([Date]),
+   "Quater label", "Q" & QUARTER([Date]),
    "Month", MONTH([Date]),
-   "Month label", FORMAT([Date]), "mmm"
-}
+   "Month label", FORMAT([Date], "mmm")
+)
 ```
 ## Step 2
 Remove the date settings in the settings in power bi
