@@ -253,6 +253,22 @@ RETURN
 Greeting & " " & SELECTEDVALUE(dimUser[First Name])
 ```
 
+# calulating the distance between two locations with long and lats
+```
+DeliveryDistance - Km = 
+var Lat1 = fctParcels[PickupLocation - Latitude]
+var Lng1 = fctParcels[PickupLocation - Longitude]
+
+var Lat2 = fctParcels[DropDestination - latitude]
+var Lng2 = fctParcels[DropDestination - Longitude]
+
+var P = DIVIDE( PI(), 180 )
+var A = 0.5 - COS((Lat2-Lat1) * p)/2 + 
+    COS(Lat1 * p) * COS(lat2 * P) * (1-COS((Lng2- Lng1) * p))/2
+var final = 12742 * ASIN((SQRT(A)))
+return final
+```
+
 
 ## Design principles
 * F pattern
