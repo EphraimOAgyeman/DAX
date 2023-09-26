@@ -269,6 +269,12 @@ var final = 12742 * ASIN((SQRT(A)))
 return final
 ```
 
+# Converting seconds to date
+```
+#datetime(1970,1,1,0,0,0) + #duration(0,0,0,[`seconds_column`])
+```
+
+
 
 ## Design principles
 * F pattern
