@@ -196,7 +196,8 @@ ADDCOLUMNS(
 ```
 1. Check for categorization
 2. Make it as Date table
-3. Sort by their number - ie. Quarter label, sort by Quarter number 
+3. Sort by their number - ie. Quarter label, sort by Quarter number
+4. Set relationship columns to date columns
 ```
 ## Step 2
 Remove the date settings in the settings in power bi
