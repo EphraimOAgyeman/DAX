@@ -276,6 +276,20 @@ var final = 12742 * ASIN((SQRT(A)))
 return final
 ```
 
+# ifs and switches
+```
+NewColumn = IF(Table1[Column1] = "Condition1" && Table1[Column2] = "Condition2", "Result if true", "Result if false")
+
+```
+```
+NewColumn = SWITCH(TRUE(),
+   Table1[Column1] = "Condition1" && Table1[Column2] = "Condition2", "Result1",
+   Table1[Column1] = "Condition3" && Table1[Column2] = "Condition4", "Result2",
+   "Default Result"
+)
+
+```
+
 # Converting seconds to date
 ```
 #datetime(1970,1,1,0,0,0) + #duration(0,0,0,[`seconds_column`])
